@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Capture Go</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div>
+		<label for="opponent">Opponent:</label>
+		<select id="opponent">
+			<option value="-1">Human</option>
+			<option value="0" selected>Random</option>
+		</select>
+	</div>
+	<div>
+		<label for="opponent-colour">Opponent colour:</label>
+		<select id="opponent-colour">
+			<option value="1">Black</option>
+			<option value="-1" selected>White</option>
+		</select>
+	</div>
+	<div id="message">Click on the board to play</div>
+	<div>Refresh the page to start a new game</div>
+	<div>
+		<canvas id="canvas"></canvas>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>

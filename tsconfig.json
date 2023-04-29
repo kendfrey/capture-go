@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"outDir": "./js",
+		"target": "ESNext",
+		"strict": true,
+		"module": "ESNext",
+		"moduleResolution": "nodenext",
+		"sourceMap": true
+	},
+	"include": ["src"]
+}

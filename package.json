@@ -1,0 +1,19 @@
+{
+  "name": "capture-go",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@sabaki/go-board": "^1.4.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.18",
+    "npm-build-tools": "^2.2.5",
+    "typescript": "^5.0.4"
+  }
+}
